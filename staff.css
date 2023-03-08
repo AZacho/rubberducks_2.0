@@ -52,6 +52,10 @@ body {
     flex-direction: column;
 }
 
+.descriptionContent h2 {
+    color: #08358A;
+}
+
 .descriptionContent h3 {
     margin: 0;
 }

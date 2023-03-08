@@ -163,6 +163,10 @@ body {
     border-radius: 8px;
 }
 
+.welcome2 h2 {
+    padding: 0 24px;
+}
+
 /* FOOTER FOOTER FOOTER */
 
 .footerBox {
