@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    background-image: url(img/flag-football-gd64aa84f8_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.headImg {
+    display: flex;
+    height: 100vh;
+}
+
+.headImg img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.eventBoxes {
+    display: flex;
+    justify-content: center;
+    height: 156px;
+    width: 900px;
+    background-color: #ffffffc5;
+    border-radius: 8px;
+}
+
+.eventBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px;
+    background-color: rgb(213, 213, 213);
+    height: 140px;
+    width: 100px;
+}
+
+.eventBox:hover {
+    cursor: pointer;
+}
+
+.eventBox p {
+    margin: 8px 0;
+}
+
+.eventBox img {
+    height: 60px;
+}
+
+.eventPopupBackground {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+}
+
+.eventPopupBackgroundCase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 540px;
+    width: 500px;
+    background-color: white;
+}
+
+.eventPopupBackgroundCase img {
+    height: 300px;
+}
+
+.eventPopupBackgroundCase h2 {
+    text-align: center;
+}
+
+.newsBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+}
+
+.leftNews {
+    text-align: center;
+}
+
+.leftNews img {
+    height: 500px;
+}
+
+.leftNews h2 {
+    margin-top: -38px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    transition: all ease-in-out 225ms;
+}
+
+.leftNews h2:hover {
+    cursor: pointer;
+    color: #08358A;
+    transition: all ease-in-out 225ms;
+}
+
+.rightNews img {
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.welcomeBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: chartreuse;
+    font-size: 48px;
+    background-color: #ffffffc5;
+    /* background-image: url('img/flag-football-gd64aa84f8_1920.jpg'); */
+    height: 200px;
+    width: 900px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.welcome2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    background-color: #ffffffc5;
+    height: 350px;
+    width: 900px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* FOOTER FOOTER FOOTER */
+
+.footerBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 86px;
+    width: 100%;
+    background-color: rgb(101, 101, 101);
+    margin-top: 32px;
+    font-size: 13px;
+}
+
+.footerBox a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBox img {
+    height: 32px;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialmediaLinks {
+    display: flex;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

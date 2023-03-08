@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-image: url(img/staff_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 999;
+    height: 60px;
+    width: 100vw;
+    background-color: #08358A;
+    color: white;
+}
+
+.rightnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.rightnav a {
+    text-decoration: none;
+}
+
+.rightnav img {
+    height: 24px;
+}
+
+.leftnav {
+    padding: 0 32px;
+    color: black;
+}
+
+.leftnav img {
+    top: 8px;
+    left: 8px;
+    position: fixed;
+    height: 100px;
+}
+
+.leftnav img:hover {
+    cursor: pointer;
+}
+
+.navpart {
+    color: white;
+    padding: 8px 8px;
+    margin: 0px 8px;
+}
+
+.navpart a {
+    color: white;
+    text-decoration: none;
+}
+
+.navpart:hover {
+    padding: 8px 8px;
+    margin: 0px 8px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #08358A;
+    background-color: white;
+}
+
+.navpart img {
+    height: 24px;
+}   
